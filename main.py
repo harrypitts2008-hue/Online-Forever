@@ -57,14 +57,14 @@ async def onliner(token, status):
                     {
                         "type": 4,
                         "state": custom_status,
-                        "name": "Custom Status",
+                        "name": ".gg/looksmaxxed",
                         "id": "custom",
                                 #Uncomment the below lines if you want an emoji in the status
-                                #"emoji": {
-                                    #"name": "emoji name",
-                                    #"id": "emoji id",
-                                    #"animated": False,
-                                #},
+                                "emoji": {
+                                    "name": "staff_mw",
+                                    "id": "1463897824864243969",
+                                    "animated": False,
+                                },
                             }
                         ],
                 "status": status,
